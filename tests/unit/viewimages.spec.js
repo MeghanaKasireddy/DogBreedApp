@@ -15,17 +15,17 @@ describe("In ViewImages Component", () => {
     const localVue = createLocalVue();
     localVue.use(Vuex);
 
-    getters = {
+    (getters = {
       breedImages: jest.fn(),
       subBreeds: jest.fn(),
       subBreedImages: jest.fn()
-    },
-    actions = {
-      fetchBreeds: jest.fn(),
-      fetchImages: jest.fn(),
-      fetchSubBreeds: jest.fn(),
-      fetchSubBreedImages: jest.fn()
-    };
+    }),
+      (actions = {
+        fetchBreeds: jest.fn(),
+        fetchImages: jest.fn(),
+        fetchSubBreeds: jest.fn(),
+        fetchSubBreedImages: jest.fn()
+      });
     state = {
       allBreedList: [],
       breedImages: [],

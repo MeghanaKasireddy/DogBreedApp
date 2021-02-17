@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1604341036890" clover="3.2.0">
-  <project timestamp="1604341036890" name="All files">
+<coverage generated="1613566037666" clover="3.2.0">
+  <project timestamp="1613566037666" name="All files">
     <metrics statements="58" coveredstatements="31" conditionals="6" coveredconditionals="2" methods="35" coveredmethods="15" elements="99" coveredelements="48" complexity="0" loc="58" ncloc="58" packages="4" files="7" classes="7"/>
     <package name="src">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="App.vue" path="C:\Users\mekasire\Desktop\vue practice\dog_app\src\App.vue">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components">
@@ -14,8 +14,8 @@
       <file name="BreedList.vue" path="C:\Users\mekasire\Desktop\vue practice\dog_app\src\components\BreedList.vue">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="29" count="2" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
       </file>
       <file name="DisplayImage.vue" path="C:\Users\mekasire\Desktop\vue practice\dog_app\src\components\DisplayImage.vue">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
@@ -28,15 +28,15 @@
       </file>
       <file name="SearchComponent.vue" path="C:\Users\mekasire\Desktop\vue practice\dog_app\src\components\SearchComponent.vue">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
         <line num="30" count="7" type="stmt"/>
-        <line num="36" count="7" type="stmt"/>
-        <line num="37" count="7" type="stmt"/>
-        <line num="38" count="7" type="stmt"/>
-        <line num="43" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="32" count="7" type="stmt"/>
+        <line num="36" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
       </file>
       <file name="ViewImages.vue" path="C:\Users\mekasire\Desktop\vue practice\dog_app\src\components\ViewImages.vue">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>

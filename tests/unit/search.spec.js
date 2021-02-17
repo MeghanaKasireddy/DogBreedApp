@@ -1,5 +1,6 @@
 import { shallowMount, createLocalVue } from "@vue/test-utils";
 import Vuex from "vuex";
+import Vue from "vue";
 import router from "@/router/index.js";
 import Router from "vue-router";
 import SearchComponent from "@/components/SearchComponent.vue";
@@ -7,6 +8,7 @@ import SearchComponent from "@/components/SearchComponent.vue";
 const localVue = createLocalVue();
 localVue.use(Vuex);
 localVue.use(Router);
+Vue.config.ignoredElements = ["b-button"];
 describe("In Search Component", () => {
   let wrapper;
   let getters;
@@ -26,6 +28,7 @@ describe("In Search Component", () => {
 
     wrapper = shallowMount(SearchComponent, {
       localVue,
+      // stubs: ['bButton'],
       store,
       router,
       computed: {

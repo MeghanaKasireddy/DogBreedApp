@@ -26,7 +26,7 @@ describe("In navbar component ", () => {
       router
     });
   });
-  
+
   afterEach(() => {
     wrapper.destroy();
   });

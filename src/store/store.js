@@ -51,7 +51,7 @@ export default new Vuex.Store({
         });
     },
 
-    fetchImages({ commit }, breed) {
+    fetchImages({ commit },breed) {
       if (breed === "") {
         commit("Set_Images", []);
         commit("Set_SubBreeds", []);

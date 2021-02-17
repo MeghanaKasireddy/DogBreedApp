@@ -1,12 +1,16 @@
 <template>
   <div class="search">
-    <select v-model="inputValue" class="selectlist" >
+    <select v-model="inputValue" class="selectlist">
       <option value="" disabled selected hidden>Choose Breed</option>
-      <option v-for="breed in breeds" :value="breed" :key="breed" >
-        {{breed}}
+      <option v-for="breed in breeds" :value="breed" :key="breed">
+        {{ breed }}
       </option>
     </select>
-    <b-button variant="info" :disabled="!inputValue" @click="selectBreed(inputValue)">
+    <b-button
+      variant="info"
+      :disabled="!inputValue"
+      @click="selectBreed(inputValue)"
+    >
       Search
     </b-button>
   </div>
@@ -45,10 +49,9 @@ export default {
 
 <style scoped>
 .selectlist {
-  height: 35px; 
+  height: 35px;
 }
 .search {
   padding-top: 10px;
 }
-
 </style>

@@ -60,7 +60,6 @@ describe("In BreedList Component", () => {
     it("it should have a DisplayImage stub", () => {
       expect(wrapper.find("displayimage-stub").exists()).toBe(true);
     });
-
   });
 
   it("it should call navigate() when clicked on grid-item", () => {
@@ -73,6 +72,4 @@ describe("In BreedList Component", () => {
     wrapper.vm.navigate("hound");
     expect(wrapper.vm.$router.push).toHaveBeenCalledWith("/images/hound");
   });
-  
 });
-
